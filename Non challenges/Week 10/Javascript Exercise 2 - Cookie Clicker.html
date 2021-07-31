@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+  <body>
+
+  <div class= "OuterBox">
+    <div class= "InnerBox">
+
+         <div class= "banner">  
+           <h1>Cookie Clicker Game</h1>
+
+         </div>
+   
+         <div class="flex-container">   <!-- Displays element in a row -->
+                      <div class="ClickerSection">
+                        <h2>Freddies Bakery</h2>
+                       <h2 id="clickCount"></h2>
+
+              <div class="center">
+
+                <button class="CookieButton" onclick="increaseCount()"></button>
+              </div>
+
+                      </div>
+
+                    </div>      
+                    
+            <div class= "LogSection">
+              <h2>Statistics</h2>
+
+             <h4 id="UpgradePurchases">Upgrade Array</h4>
+             
+             <h4 id="StatClickCount">Number of clicks: 0</h4>
+             <h4 id="UpgradeCount">Number of upgrades: 0</h4>
+             <h4 id="seconds-count">Game duration (seconds): 0</h4>
+
+
+            <h2>Log Section</h2>
+
+            <div class="ListBox" id="LogText">
+              <ul id="LogUL">
+
+               </ul>
+             </div>
+
+            </div>
+
+            <div class= "UpgradeSection">
+              <h2>Store</h2>
+              <div class= "UpgradeButtonBox">
+                <h5>Cost: 100</h5>
+                <button id="ChocChipButton" onclick ="purchaseChocChip()"></button>
+
+             <h5>Cost: 100</h5>
+             <button id="MinWheelCookieButton" ></button>
+             <h5>Cost: 100</h5>
+             <button id="ChocCookieButton" ></button>
+             <h5>Cost: 100</h5>
+
+       <h1>Clicker Section</h1>
+       <h2  id="Clickcount">Cookie clicks: 0</h2>
+
+       <div class= "center">
+
+       <button class="cookieButton" onclick="increaseCount()"></button>
+      </div>
+       
+       <div class= "Logsection">
+         <h2>Statistics</h2>
+
+         <h4 id="UpgradedPurchases">Upgrade Array</h4>
+
+         <h4 id="StatClickCount">Number of clicks: 0</h4>
+         <h4 id="UpgradeCount">Number of upgrades: 0</h4>
+         <h4 id="seconds-Count">Game duration (seconds): 0</h4>
+
+         <h2>Log Section</h2>
+
+         <div class="ListBox" id="LogText">
+           <ul id="LogUL">
+
+
+           </ul>
+         </div>
+
+       <div class= "UpgradeSection">
+           <h2>Store</h2>
+       <div class= "UpgradeButtonBox">
+         <h5>Cost: 5</h5>
+         <button id="ChocChipButton" onclick="purchaseChocChip()" ></button>
+
+         <h5>Cost: 10</h5>
+         <button id="PinWheelCookieButton" onclick="PuchaseChocSwirl()" ></button>
+         <h5>Cost: 15</h5>
+         <button id="ChocCookieButton" onclick="PurchaseDoubleChoc()"></button>
+         <h5>Cost: 20</h5>
+         <button id="MMCookieButton"  onclick="purchaseMM() "></button>
+
+               
+
+                       </div>    
+
+                  </div>
+         </div>
+
+        </div>
+
+      </div>
+
+      </div>
+
+     
+      <script src="cookiegame.js"></script>
+  </body>
+</html>

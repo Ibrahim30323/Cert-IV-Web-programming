@@ -1,0 +1,58 @@
+.OuterBox {
+   
+   margin:0px;
+}
+
+.banner {
+
+   min-height: 200px;
+   width: 1900px; 
+   color: white;
+   background-image: url("Cookie Clicker Background Image for Header.jpg");  
+   /* background-size: 1900px 200px; */ 
+   
+}
+
+
+.flex-container {
+
+    display: flex;
+    min-height: 1200px;
+    background-position: center;
+    
+}
+
+
+
+.ClickerSection {
+   min-width: 500px; 
+   background-image: url("https://mcdn.wallpapersafari.com/medium/72/65/gme4NV.jpg");
+   border-style: groove;
+   border-color: rgb(88, 73, 73);
+
+   
+
+}
+
+
+.InfoSection {
+    background-image: url("https://mcdn.wallpapersafari.com/medium/72/65/gme4NV.jpg");
+    border-style: groove;
+    min-width: 500px;
+    border-style: groove;
+    border-color: rgb(88, 73, 73);
+   
+}
+
+.UpgradeSection {
+
+    background-image: url("https://mcdn.wallpapersafari.com/medium/72/65/gme4NV.jpg");
+    min-width: 600px;
+    border-style: groove;
+    border-color: rgb(88, 73, 73);
+    
+}
+
+.center {
+    text-align: center;
+}

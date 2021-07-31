@@ -1,0 +1,66 @@
+.First-Background {
+    background-color: rgb(27, 38, 49);
+    padding:28px;
+}
+#Ibrahim-Oztas {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    font-size: 52px;
+}
+#My-Small-Resume {
+    text-align: center;
+    color: white;
+}
+#SOFTWARE-DEVELOPER{
+    color: white;
+    font-size:20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Small-Statement-About-Myself {
+    color: white;
+}
+.Second-Background {
+    background-color: rgb(46, 134, 193); 
+    padding:28px; 
+}
+#ACADEMIC-HISTORY {
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
+}
+#January-2002---December-2008 {
+background-color: grey;
+}
+#January-2009---December-2015           {
+background-color: grey; 
+}
+.Third-Background {
+    background-color: rgb(93, 173, 226); 
+    padding:28px; 
+}
+#WORK-EXPERIENCE {
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(255, 255, 255);
+}
+#February-2011---May-2013 {
+background-color: grey;
+}
+#January-2014---September-2016 {
+    background-color: grey;
+}
+.Fourth-Background {
+    background-color:#607D8B; 
+    padding:28px;
+}
+#Contact-Info {
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+
+
+
+
+
+
+
+

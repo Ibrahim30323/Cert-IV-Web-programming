@@ -1,0 +1,108 @@
+body {
+     background-color: black;
+     max-height: 1500px;
+}
+
+.OuterBox {
+     background-image: url("curtain.jpg");
+     min-width: 1060px;
+     height: 750px;
+     max-height: 700px;
+     display: flex; 
+}
+
+.ContestantBox {
+     background-image: url("GirlHappy.png");
+     width: 800px;
+     height: 800px;
+     min-width: 800px;
+}
+
+.QuizBox {
+    background-color: rgb (177, 218, 228);
+    min-width: 600px;
+    border-radius: 20px;
+    margin: 100px 0px;
+
+}
+
+.QuizBox h2 {
+     color: rgb(255, 255, 255);
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sens-serif;
+     margin: 20px; 
+     border-style: solid;
+     border-width: 2px;
+     border-color: white;
+     padding: 10px;
+     border-radius:10px;
+     background-color: cornflowerblue;
+}
+
+.QuizBox h3 {
+    color: cornflowerblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sens-serif;
+    margin: 20px; 
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    padding: 10px;
+    border-radius:10px;
+    background-color: white;
+
+}
+
+.label {
+    color: rgb(53, 80, 129);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+
+.AnswerButton {
+    padding: 10px, 100px;
+    border-radius: 15px;
+    margin-top: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: white;
+    font-weight:bold;
+    background-color: salmon;
+
+}
+
+
+.QuestionBox {
+   padding-left: 50px;
+}
+
+.SolutionBox {
+    color: rgb(89, 100, 117);
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px, 70px;
+}
+
+
+.SolutionBox h3 {
+  color: rgb(89, 163, 89);
+  text-align: center;
+  margin-top:5px;
+
+}
+
+
+
+.footer {
+     background-color: white;
+     min-height: 75px;
+     width: 1200px;
+     border-radius: 20px;
+     margin: 70px 200px;
+}
+
+.footer h1 {
+   color: rgb()
+
+
+}
